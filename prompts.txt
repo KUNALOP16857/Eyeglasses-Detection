@@ -1,0 +1,3 @@
+I am building a binary image classifier from scratch in PyTorch to detect eyeglasses. The final model needs to be deployed on edge environments like Snapchat Lens Studio, so my main goal is minimizing latency and compute cost. I don't want to use heavy transfer learning like ResNet. What are the most effective research papers and layer techniques to build a tiny, ultra-fast custom CNN?
+
+My lightweight CNN works on static images, but in live camera feeds, the predictions flicker if the face moves or shifts slightly. Are there any modern research papers on making CNN downsampling layers shift-invariant to fix this instability?
